@@ -1,0 +1,21 @@
+{
+  "name": "ticino-monitor",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Carta di situazione per il Cantone Ticino - eventi, pericoli naturali, cronaca, trasporti, finanza, infrastrutture critiche.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "maplibre-gl": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
