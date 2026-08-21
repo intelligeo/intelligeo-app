@@ -3,7 +3,7 @@ services:
     name: intelligeo-app
     env: static
     branch: main
-    buildCommand: npm install && npm run build
+    buildCommand: npm install && npm run build && if [ -d dist ] && [ ! -d build ]; then cp -R dist build; fi
     staticPublishPath: build
     pullRequestPreviewsEnabled: true
     routes:
