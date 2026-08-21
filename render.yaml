@@ -1,7 +1,7 @@
 services:
   - type: web
     name: intelligeo-app
-    runtime: static
+    env: static
     branch: main
     buildCommand: npm install && npm run build
     staticPublishPath: dist
